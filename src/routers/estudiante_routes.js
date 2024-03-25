@@ -13,7 +13,7 @@ const router = Router()
 
 router.post('/estudiante/registrar',verificarAutenticacion, registrarEstudiante)
 
-router.get('/estudiantes', verificarAutenticacion, listarEstudiantes)
+// router.get('/estudiantes', verificarAutenticacion, listarEstudiantes)
 
 router.get('/estudiante/:id', verificarAutenticacion, detalleEstudiante)
 
