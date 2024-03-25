@@ -6,8 +6,6 @@ import {
     registro,
     perfil,
     detalleUsuario,
-    moduloEstudiantes,
-    moduloMatriculas
 } from '../controllers/usuario_controller.js'
 
 

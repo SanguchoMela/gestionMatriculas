@@ -49,19 +49,9 @@ const perfil = (req,res) => {
     res.status(200).json({msg:req.usuarioBDD})
 }
 
-const moduloEstudiantes = (req,res) => {
-    res.send('Modulo estudiantes')
-}
-
-const moduloMatriculas = (req,res) => {
-    res.send('Modulo matriculas')
-}
-
 export {
     loginUsuario,
     registro,
     perfil,
-    detalleUsuario,
-    moduloEstudiantes,
-    moduloMatriculas
+    detalleUsuario
 }

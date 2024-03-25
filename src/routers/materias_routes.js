@@ -10,8 +10,6 @@ import {
 
 const router = Router()
 
-// router.get('/materias', verificarAutenticacion, moduloMaterias)
-
 router.post('/materia/registrar',verificarAutenticacion, registrarMateria)
 
 router.get('/materia/:id', verificarAutenticacion, detalleMateria)

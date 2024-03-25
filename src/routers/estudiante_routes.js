@@ -11,8 +11,6 @@ import {
 
 const router = Router()
 
-// router.get('/materias', verificarAutenticacion, moduloMaterias)
-
 router.post('/estudiante/registrar',verificarAutenticacion, registrarEstudiante)
 
 router.get('/estudiantes', verificarAutenticacion, listarEstudiantes)
