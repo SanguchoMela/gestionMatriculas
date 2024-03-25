@@ -1,8 +1,8 @@
-// import app from './server.js'
-// import connection from './database.js'
+import app from './server.js'
+import connection from './database.js'
 
-// connection()
+connection()
 
-// app.listen(app.get('port'),() => {
-//     console.log(`Server running on http://localhost:${app.get('port')}`)
-// })
+app.listen(app.get('port'),() => {
+    console.log(`Server running on http://localhost:${app.get('port')}`)
+})
